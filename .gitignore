@@ -10,3 +10,6 @@ server
 output.graphml
 data
 output
+build
+dist
+*.egg-info
