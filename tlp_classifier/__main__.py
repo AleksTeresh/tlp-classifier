@@ -1,6 +1,6 @@
 import sys, getopt, json
 from .problem_set import Problem_set
-from .file_help import import_data_set, store
+from .file_help import import_data_set, store, store_json
 from .classifier import classify
 from .generator import generate
 from .complexity import Complexity, complexity_name
@@ -14,11 +14,10 @@ def classifyAndStore(min_degree, max_degree):
     json_dict = dict()
     for complexity in Complexity:
         classifiedSubset = [x.to_tuple() for x in problems if x.get_complexity() == complexity]
-        print (complexity_name[complexity] + " : " + str(len(classifiedSubset)), " problems")            
+        print(complexity_name[complexity] + " : " + str(len(classifiedSubset)), " problems")
         json_dict[complexity_name[complexity]] = classifiedSubset
 
-    with open("output/" + str(min_degree) + "_" + str(max_degree) + ".json", "w") as write_file:
-        json.dump(json_dict,write_file,indent=4)
+    store_json(min_degree, max_degree, json_dict)
 
 def generateAndStore(min_degree, max_degree):
     p = generate(min_degree,max_degree)

@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
+import json, sys
 from .problem import Problem,Constraints,alpha_to_problem
 from .complexity import Complexity,complexity_name
 from tqdm import tqdm
-import json
 from time import time
 from .tools import *
 from .algorithms import constraint_reduction,redundancy_algorithm, greedy4Coloring,cover_map_1, round_eliminator_lb, round_eliminator_ub
