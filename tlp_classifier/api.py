@@ -7,7 +7,7 @@ from .input import LOGARITHMIC_LOWER_BOUND
 from .problem_set import Problem_set
 
 # Get the complexity of a problem
-def get_problem(white_constraint,black_constraint):
+def fetch_problems(white_constraint,black_constraint):
     white_degrees = [len(x) for x in white_constraint]
     black_degrees = [len(x) for x in black_constraint]
 
@@ -24,11 +24,14 @@ def get_problem(white_constraint,black_constraint):
 
     problems,relaxations,restrictions = import_data_set(white_degree, black_degree,Problem_set.Classified)
 
-    return get_problem(black_constraint,white_constraint,problems)
+    return problems
 
 # Get the complexity of a problem
-def get_problem(white_constraint,black_constraint, problems):
-    problem = alpha_to_problem(white_constraint,black_constraint)
+def get_problem(white_constraint, black_constraint, problems = None):
+    if problems is None:
+        problems = fetch_problems(white_constraint, black_constraint)
+
+    problem = alpha_to_problem(white_constraint, black_constraint)
     if problem is None:
         print("error : The problem was incorrectly entered (empty configuration set)")
         return
@@ -74,14 +77,17 @@ def get_upper_bounds_constant_problems(problems):
             res[ub] = res.get(ub,0) + 1
     return res
 
-WHITE_DEGREE = 3
-BLACK_DEGREE = 2
+# white_constraint = {'AAC', 'BBB'}
+# black_constraint = {'BC','AA'}
+# pr = get_problem(white_constraint, black_constraint)
+# print(pr)
 
-problems,relaxations,restrictions = import_data_set(WHITE_DEGREE, BLACK_DEGREE,Problem_set.Classified)
-black_constraint = {'BC','AA'}
-white_constraint = {'AAC', 'BBB'}
+# white_constraint = {'AC', 'AB', 'CC', 'BC'}
+# black_constraint = {'BB', 'AC', 'AB', 'BC'}
+# pr = get_problem(white_constraint, black_constraint)
+# print(pr)
 
-print(get_problem(black_constraint,white_constraint,problems))
+# print(get_problem(white_constraint, black_constraint, problems))
 
 #print(get_upper_bounds_constant_problems(problems))
 

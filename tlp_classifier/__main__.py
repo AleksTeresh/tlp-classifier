@@ -4,6 +4,7 @@ from .file_help import import_data_set, store, store_json
 from .classifier import classify
 from .generator import generate
 from .complexity import Complexity, complexity_name
+from .api import get_problem
 
 def classifyAndStore(min_degree, max_degree):
     problems,relaxations,restrictions = import_data_set(min_degree,max_degree,Problem_set.Unclassified)
