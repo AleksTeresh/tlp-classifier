@@ -1,0 +1,1640 @@
+{
+    "constant": [
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AA, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC, BC",
+            "black constraint": "BB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "BB, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 2,
+            "complexity upper bound": 2
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "BB, AC, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC, BC",
+            "black constraint": "BB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, AB, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "CC, BC",
+            "black constraint": "BB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, BB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC",
+            "black constraint": "BB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AB, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "BB, AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AB",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "BB, AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, BB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AC, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AA, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "CC, BC",
+            "black constraint": "CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "BB, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 3,
+            "complexity upper bound": 3
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "BB, AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, AA, BC",
+            "black constraint": "AC, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC, BC",
+            "black constraint": "BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "CC, BC",
+            "black constraint": "BB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AB, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 3,
+            "complexity upper bound": 3
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "BB, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AA, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "CC",
+            "black constraint": "CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "BB, AC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 1,
+            "complexity upper bound": 1
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AC, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC, AA",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "BB, AC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "BB, AA, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, BB, CC, AA, BC",
+            "black constraint": "AB, BB, CC, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AA, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 3,
+            "complexity upper bound": 3
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, AA, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AB, CC, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, CC, AA",
+            "black constraint": "BB, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "BB, AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AA, AB, BC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "BB, AC, CC, AA",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AB, CC",
+            "complexity": "constant",
+            "complexity lower bound": 0,
+            "complexity upper bound": 0
+        }
+    ],
+    "iterated_logarithmic": [],
+    "logarithmic": [],
+    "global": [
+        {
+            "white constraint": "AC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BB, AA, CC, BC",
+            "black constraint": "AC, AB",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BC",
+            "black constraint": "BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "CC, BC",
+            "black constraint": "BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BB, CC",
+            "black constraint": "BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AC, AA, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BB, AC, CC, BC",
+            "black constraint": "AC, AB, AA",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, AB, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AA, AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, AB, BB, CC, BC",
+            "black constraint": "AC, AB, AA",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "CC, BC",
+            "black constraint": "BB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "AC, AB",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "AC, AB",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AB, CC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AA, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AC, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, BC",
+            "black constraint": "AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "BB, CC, AA",
+            "black constraint": "AC, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AB, CC",
+            "black constraint": "AC, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "BB, AC, AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AC, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AC, AB, BC",
+            "complexity": "global"
+        },
+        {
+            "white constraint": "AC, CC, BC",
+            "black constraint": "AA, BC",
+            "complexity": "global"
+        }
+    ],
+    "unsolvable": [
+        {
+            "white constraint": "",
+            "black constraint": "",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, BB, CC, AA, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BB, AC, CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AB, CC, BC, AA",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BB, CC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, AB, BB, CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BB, CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AB, CC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "CC, BC, AA",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, AB, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, AB, BB, CC, AA, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AB, CC, BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BB, CC, BC, AA",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BB, CC, AA",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "CC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "BC",
+            "complexity": "unsolvable"
+        },
+        {
+            "white constraint": "",
+            "black constraint": "AC, AB, CC, BC",
+            "complexity": "unsolvable"
+        }
+    ],
+    "unclassified": [
+        {
+            "white constraint": "AA, CC, BC",
+            "black constraint": "BB, AC",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        },
+        {
+            "white constraint": "BB, CC, AA",
+            "black constraint": "AC, AB, BC",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        },
+        {
+            "white constraint": "AB, CC, BC",
+            "black constraint": "BB, AC, AA",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        },
+        {
+            "white constraint": "AB, CC",
+            "black constraint": "AA, BC",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        },
+        {
+            "white constraint": "AA, AB, CC, BC",
+            "black constraint": "BB, AC",
+            "complexity lower bound": "constant",
+            "complexity upper bound": "global"
+        }
+    ]
+}
