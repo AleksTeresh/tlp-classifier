@@ -1,12 +1,11 @@
+import os
 import numpy as np
 import itertools, tempfile, re, subprocess,os
 from .problem import *
 from time import time
 
 LABELS = set([0,1,2])
-WHITE_DEGREE = 2
-BLACK_DEGREE = 3
-SERVER_DIR = os.path.dirname(os.path.realpath(__file__))+'/server'
+SERVER_DIR = os.path.dirname(os.path.realpath(__file__)) + '/../../round-eliminator/target/release/server'
 
 # Return all the configurations of the given constraint that does not contains any of the given labels
 def configurations_without(constraint, that):
@@ -58,10 +57,12 @@ def redundancy_algorithm(white_constraint,black_constraint):
     return None
 
 
+BLACK_DEGREE = 3
 # For tuple (2,3)
 # on the doc (3,2)
 # could be (3,x)
 def greedy4Coloring(problem):
+    print('Custom', problem)
     white = set([(1,1,0),(0,1,1),(1,0,1)])
     black = set([(BLACK_DEGREE,0,0),(0,BLACK_DEGREE,0),(0,0,BLACK_DEGREE)])
     if white == problem.white_constraint and black.issubset(problem.black_constraint) and len(problem.black_constraint) > 3:

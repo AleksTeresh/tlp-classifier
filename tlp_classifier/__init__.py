@@ -5,6 +5,7 @@ from .problem_set import *
 from .problem import *
 from .classifier import *
 from .generator import *
+from .api import *
 
 # Package version
 __version__ = '0.1.0'
