@@ -62,7 +62,6 @@ BLACK_DEGREE = 3
 # on the doc (3,2)
 # could be (3,x)
 def greedy4Coloring(problem):
-    print('Custom', problem)
     white = set([(1,1,0),(0,1,1),(1,0,1)])
     black = set([(BLACK_DEGREE,0,0),(0,BLACK_DEGREE,0),(0,0,BLACK_DEGREE)])
     if white == problem.white_constraint and black.issubset(problem.black_constraint) and len(problem.black_constraint) > 3:
