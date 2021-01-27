@@ -5,7 +5,10 @@ from .problem_set import *
 from .problem import *
 from .classifier import *
 from .generator import *
+from .algorithms import *
 from .api import *
 
+# TODO: remove unnecessary imports (in other packages too)
+
 # Package version
-__version__ = '0.1.4'
+__version__ = '0.1.5'
