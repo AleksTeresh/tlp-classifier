@@ -70,4 +70,13 @@ def main(argv):
         sys.exit(1)
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+   # main(sys.argv[1:])
+   white_constraint = {'AAC', 'BBB'}
+   black_constraint = {'BC','AA'}
+   pr = get_problem(white_constraint, black_constraint)
+   print(pr)
+
+   white_constraint = {'AC', 'AB', 'CC', 'BC'}
+   black_constraint = {'BB', 'AC', 'AB', 'BC'}
+   pr = get_problem(white_constraint, black_constraint)
+   print(pr)

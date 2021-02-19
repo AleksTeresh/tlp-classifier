@@ -6,7 +6,13 @@ from timeit import default_timer as timer
 from .input import LOGARITHMIC_LOWER_BOUND
 from .problem_set import Problem_set
 
-# Get the complexity of a problem
+def fetch_problems_by_degee(
+    white_degree,
+    black_degree
+):
+    problems, _, _ = import_data_set(white_degree, black_degree, Problem_set.Classified)
+    return problems
+
 def fetch_problems(white_constraint,black_constraint):
     white_degrees = [len(x) for x in white_constraint]
     black_degrees = [len(x) for x in black_constraint]
@@ -35,6 +41,16 @@ def get_problem(white_constraint, black_constraint, problems = None):
     if problem is None:
         print("error : The problem was incorrectly entered (empty configuration set)")
         return
+    for elem in problems:
+        if problem == elem:
+            return elem
+    print("error : The problem was incorrectly entered (wrong degree or more than 3 labels)")
+
+# Get the complexity of a batch of problems
+def get_problems(unclassified_alphas, white_degree, black_degree):
+    classified = set(fetch_problems_by_degee(white_degree, black_degree))
+    unclassified = [alpha_to_problem(white_c, black_c) for (white_c, black_c) in unclassified_alphas]
+    response = unclassified
     for elem in problems:
         if problem == elem:
             return elem
