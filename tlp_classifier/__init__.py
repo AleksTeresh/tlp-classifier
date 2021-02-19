@@ -11,4 +11,4 @@ from .api import *
 # TODO: remove unnecessary imports (in other packages too)
 
 # Package version
-__version__ = '0.1.5'
+__version__ = '0.1.6'

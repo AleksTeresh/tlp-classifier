@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="tlp-classifier",
-    version="0.1.5",
+    version="0.1.6",
     description="A command-line tool for automatically classifying ternary labelling problems (hence TLP) on bipartite trees.",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -15,7 +15,7 @@ setup(
     author="Tanguy Rocher, Aleksandr Tereshchenko",
     author_email="tanguy.rocher@epfl.ch, aleksandr.tereshch@gmail.com",
     license="MIT",
-    install_requires=["tqdm", "bitarray"],
+    install_requires=["tqdm", "bitarray", "numpy"],
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
