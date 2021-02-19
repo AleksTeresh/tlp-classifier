@@ -1,2 +1,3 @@
-tqdm
-bitarray
+tqdm==4.48.2
+bitarray==1.5.3
+numpy==1.19.2
