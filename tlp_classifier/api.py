@@ -31,8 +31,8 @@ def constraints_to_problem(white_constraint, black_constraint):
     return alpha_to_problem(white_constraint, black_constraint)
 
 def get_problems(constraint_tulpes):
-    white_degree = len(constraint_tulpes[0][0])
-    black_degree = len(constraint_tulpes[0][1])
+    white_degree = len(constraint_tulpes[0][0][0])
+    black_degree = len(constraint_tulpes[0][1][0])
 
     problems = fetch_problems_by_degrees(white_degree, black_degree)
     problems = {p: p for p in p}

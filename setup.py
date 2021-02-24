@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="tlp-classifier",
-    version="0.1.8",
+    version="0.1.9",
     description="A command-line tool for automatically classifying ternary labelling problems (hence TLP) on bipartite trees.",
     long_description=README,
     long_description_content_type="text/markdown",
