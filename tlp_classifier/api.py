@@ -30,6 +30,15 @@ def fetch_problems(white_constraint,black_constraint):
 def constraints_to_problem(white_constraint, black_constraint):
     return alpha_to_problem(white_constraint, black_constraint)
 
+def get_problems(constraint_tulpes):
+    white_degree = len(constraint_tulpes[0][0])
+    black_degree = len(constraint_tulpes[0][1])
+
+    problems = fetch_problems_by_degrees(white_degree, black_degree)
+    problems = {p: p for p in p}
+
+    return [problems[alpha_to_problem(wc, bc)] for (wc, bc) in constraint_tulpes]
+
 # Get the complexity of a problem
 def get_problem(white_constraint, black_constraint, problems = None):
     if problems is None:
