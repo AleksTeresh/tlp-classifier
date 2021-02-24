@@ -6,7 +6,10 @@ from timeit import default_timer as timer
 from .input import LOGARITHMIC_LOWER_BOUND
 from .problem_set import Problem_set
 
-# Get the complexity of a problem
+def fetch_problems_by_degrees(white_degree, black_degree):
+    problems,_, _ = import_data_set(white_degree, black_degree,Problem_set.Classified)
+    return problems
+
 def fetch_problems(white_constraint,black_constraint):
     white_degrees = [len(x) for x in white_constraint]
     black_degrees = [len(x) for x in black_constraint]
@@ -22,9 +25,10 @@ def fetch_problems(white_constraint,black_constraint):
     white_degree = white_degrees[0]
     black_degree = black_degrees[0]
 
-    problems,relaxations,restrictions = import_data_set(white_degree, black_degree,Problem_set.Classified)
+    return fetch_problems_by_degrees(white_degree, black_degree)
 
-    return problems
+def constraints_to_problem(white_constraint, black_constraint):
+    return alpha_to_problem(white_constraint, black_constraint)
 
 # Get the complexity of a problem
 def get_problem(white_constraint, black_constraint, problems = None):
